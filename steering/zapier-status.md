@@ -1,1 +1,0 @@
-../plugins/zapier/skills/zapier-status/SKILL.md
