@@ -25,8 +25,8 @@ The MCP server URL is the same across all clients: `https://mcp.zapier.com/api/v
 ### Claude Code
 
 ```
-/plugin marketplace add zapier/zapier-mcp
-/plugin install zapier@zapier-plugins
+/plugin marketplace add zapier/marketplace
+/plugin install mcp@zapier
 ```
 
 If Anthropic's [`claude-plugins-official`](https://github.com/anthropics/claude-plugins-official) marketplace is already added, skip the first step and run `/plugin install zapier@claude-plugins-official` instead.
@@ -38,8 +38,8 @@ Direct the user to [cursor.com/marketplace/zapier](https://cursor.com/marketplac
 ### GitHub Copilot CLI
 
 ```
-copilot plugin marketplace add zapier/zapier-mcp
-copilot plugin install zapier@zapier-plugins
+copilot plugin marketplace add zapier/marketplace
+copilot plugin install mcp@zapier
 ```
 
 ### Kiro
@@ -83,6 +83,7 @@ Any `https://docs.zapier.com/<path>` page has a raw-markdown mirror — append `
 | Role-tailored toolkit setup | [plugins/zapier/skills/zapier-explore/SKILL.md](./plugins/zapier/skills/zapier-explore/SKILL.md) |
 | Status / health checks | [plugins/zapier/skills/zapier-status/SKILL.md](./plugins/zapier/skills/zapier-status/SKILL.md) |
 | Claude Code plugin manifest | [plugins/zapier/.claude-plugin/plugin.json](./plugins/zapier/.claude-plugin/plugin.json) |
+| OpenAI Codex plugin manifest | [plugins/zapier/.codex-plugin/plugin.json](./plugins/zapier/.codex-plugin/plugin.json) |
 | Cursor plugin manifest | [plugins/zapier/.cursor-plugin/plugin.json](./plugins/zapier/.cursor-plugin/plugin.json) |
 | GitHub Copilot CLI plugin manifest | [plugins/zapier/.github/plugin/plugin.json](./plugins/zapier/.github/plugin/plugin.json) |
 | Kiro Power manifest + steering | [zapier-power/](./zapier-power/) |
